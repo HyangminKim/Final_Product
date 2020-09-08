@@ -1,0 +1,9 @@
+/home/project/market/Product/src/main/java/market/ProductStatusChanged.java
+/home/project/market/Product/src/main/java/market/ProductRepository.java
+/home/project/market/Product/src/main/java/market/AbstractEvent.java
+/home/project/market/Product/src/main/java/market/PolicyHandler.java
+/home/project/market/Product/src/main/java/market/Application.java
+/home/project/market/Product/src/main/java/market/config/kafka/KafkaProcessor.java
+/home/project/market/Product/src/main/java/market/Product.java
+/home/project/market/Product/src/main/java/market/ProductRegistered.java
+/home/project/market/Product/src/main/java/market/ProductController.java
