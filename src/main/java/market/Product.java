@@ -3,6 +3,8 @@ package market;
 import javax.persistence.*;
 import org.springframework.beans.BeanUtils;
 import java.util.List;
+import org.springframework.support.TransactionSyncronizationAdapter;
+import org.springframework.support.TransactionSyncronizationManager;
 
 @Entity
 @Table(name="Product_table")
@@ -19,7 +21,11 @@ public class Product {
         ProductRegistered productRegistered = new ProductRegistered();
         BeanUtils.copyProperties(this, productRegistered);
         productRegistered.publish();
-
+try {
+ Thread.currentThread().sleep((long) (400+ Math.random() * 220));
+}catch (InterruptedExection e){
+e.printStackTrace();
+}
 
     }
 
